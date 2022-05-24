@@ -59,7 +59,7 @@ sudo apt-get install git git-svn subversion pandoc pandoc-citeproc
 
 #+BEGIN_SRC sh
 # split pdf into many
-sudo apt install assume-yes pdftk psutils
+sudo apt install --assume-yes pdftk psutils
 # convert from ppt to pdf
 sudo apt-get install --assume-yes unoconv djvulibre-plugin unrtf
 # convert from word to pdf
